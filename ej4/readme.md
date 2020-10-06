@@ -1,1 +1,1 @@
-https://github.com/Alexix87/AyED-UTN/blob/master/ej4/Ej4.jpg
+ ![alt text](https://github.com/Alexix87/AyED-UTN/blob/master/ej4/Ej4.jpg)
