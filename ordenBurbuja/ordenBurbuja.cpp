@@ -17,7 +17,7 @@ void mostrarVector(int vector[], int cantElementos){
 }
 
 void intercambiar(int &a,int &b){
-    int aux;
+    int aux; 
     aux = a;
     a = b;
     b = aux;
