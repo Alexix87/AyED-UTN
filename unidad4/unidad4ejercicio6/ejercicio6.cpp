@@ -25,7 +25,7 @@ void cargarPuntajes(int mPuntajes[15][4],const int CANT_TIRADORES, const int CAN
 }
 
 int sumarPuntajeDeParticipante(int mPuntajes[15][4], int participante, int CANT_TIROS){
-    int sumatoria = 0;
+    int sumatoria = 0; 
     for (int i=1; i<=CANT_TIROS; i++){
         sumatoria += mPuntajes[participante][i];
     }
@@ -40,13 +40,14 @@ void mostrarTablaPosiciones(int mPuntajes[15][4],int CANT_TIRADORES, int CANT_TI
     cout << "Puntaje" << endl;
     
     for(int i=0; i<CANT_TIRADORES; i++){
-        cout << i+1;
+        cout << i+1; 
         cout.width(10);
         cout << mPuntajes[i][0];
         cout.width(10);
         cout << sumarPuntajeDeParticipante(mPuntajes,i,CANT_TIROS) << endl;
     }
     cout << endl;
+
     system("pause");
 }
 
